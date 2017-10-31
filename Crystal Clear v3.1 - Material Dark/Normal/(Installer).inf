@@ -1,0 +1,53 @@
+;Crystal Clear v3.1 | Material Dark by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[MD] Normal Select v3.1.ani"
+"[MD] Help Select v3.1.ani"
+"[MD] Working In Background v3.1.ani"
+"[MD] Busy v3.1.ani"
+"[MD] Precision Select v3.1.ani"
+"[MD] Text Select v3.1.ani"
+"[MD] Handwriting v3.1.ani"
+"[MD] Unavailable v3.1.ani"
+"[MD] Vertical Resize v3.1.ani"
+"[MD] Horizontal Resize v3.1.ani"
+"[MD] Diagonal Resize 1 v3.1.ani"
+"[MD] Diagonal Resize 2 v3.1.ani"
+"[MD] Move v3.1.ani"
+"[MD] Alternate Select v3.1.ani"
+"[MD] Link Select v3.1.ani"
+
+[Strings]
+CUR_DIR       	= "Cursors\Crystal Clear v3.1 - Material Dark"
+SCHEME_NAME     	= "Crystal Clear v3.1 - Material Dark"
+pointer		= "[MD] Normal Select v3.1.ani"
+help		= "[MD] Help Select v3.1.ani"
+work		= "[MD] Working In Background v3.1.ani"
+busy		= "[MD] Busy v3.1.ani"
+cross		= "[MD] Precision Select v3.1.ani"
+text		= "[MD] Text Select v3.1.ani"
+hand		= "[MD] Handwriting v3.1.ani"
+unavailiable	= "[MD] Unavailable v3.1.ani"
+vert		= "[MD] Vertical Resize v3.1.ani"
+horz		= "[MD] Horizontal Resize v3.1.ani"
+dgn1		= "[MD] Diagonal Resize 1 v3.1.ani"
+dgn2		= "[MD] Diagonal Resize 2 v3.1.ani"
+move		= "[MD] Move v3.1.ani"
+alternate		= "[MD] Alternate Select v3.1.ani"
+link		= "[MD] Link Select v3.1.ani"
